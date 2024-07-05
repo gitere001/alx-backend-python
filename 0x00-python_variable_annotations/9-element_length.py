@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Module element_length"""
 from typing import Iterable, Sequence, List, Tuple
 
 
