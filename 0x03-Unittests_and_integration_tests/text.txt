@@ -1,0 +1,10 @@
+calling say_hello with args('Alice',) and kwargs {}
+calling say_hello with args('',) and kwargs {}
+calling add with args(3, 5) and kwargs {}
+calling add with args(10, -4) and kwargs {}
+calling add with args(-2, -8) and kwargs {}
+calling add with args(0, 7) and kwargs {}
+calling info with args(1, 2, 3) and kwargs {}
+calling info with args() and kwargs {'name': 'Alice', 'age': 30}
+calling info with args(1, 2, 3) and kwargs {'name': 'Alice', 'age': 30}
+calling info with args() and kwargs {}
