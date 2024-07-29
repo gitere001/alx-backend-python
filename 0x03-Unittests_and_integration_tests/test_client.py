@@ -6,6 +6,7 @@ from parameterized import parameterized
 
 
 class TestGithubOrgClient(unittest.TestCase):
+    """Test the `GithubOrgClient` class."""
     @parameterized.expand([
         ('google'),
         ('abc')
@@ -59,7 +60,6 @@ class TestGithubOrgClient(unittest.TestCase):
         # Create an instance of GithubOrgClient
         client = GithubOrgClient("test")
 
-        # Assert that _public_repos_url returns the expected URL
         self.assertEqual(client._public_repos_url, "https://api.github.coms")
 
     @patch('client.get_json')
