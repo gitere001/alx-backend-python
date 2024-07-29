@@ -1,10 +1,12 @@
-calling say_hello with args('Alice',) and kwargs {}
-calling say_hello with args('',) and kwargs {}
-calling add with args(3, 5) and kwargs {}
-calling add with args(10, -4) and kwargs {}
-calling add with args(-2, -8) and kwargs {}
-calling add with args(0, 7) and kwargs {}
-calling info with args(1, 2, 3) and kwargs {}
-calling info with args() and kwargs {'name': 'Alice', 'age': 30}
-calling info with args(1, 2, 3) and kwargs {'name': 'Alice', 'age': 30}
-calling info with args() and kwargs {}
+function __init__: args('123456789', 'John Doe', 1000.0),kwargs{}, date 2024-07-28 18:51:17
+function __init__: args('987654321', 'Jane Smith', 500.0),kwargs{}, date 2024-07-28 18:51:17
+function deposit: args(200,),kwargs{}, date 2024-07-28 18:51:17
+function withdraw: args(150,),kwargs{}, date 2024-07-28 18:51:17
+function deposit: args(300,),kwargs{}, date 2024-07-28 18:51:17
+function transfer: args(<__main__.BankAccount object at 0x7f9dc029a750>, 300),kwargs{}, date 2024-07-28 18:51:17
+function account_details: args(),kwargs{'branch': 'Downtown', 'type': 'Savings'}, date 2024-07-28 18:51:17
+function deposit: args(50,),kwargs{}, date 2024-07-28 18:51:17
+function withdraw: args(25,),kwargs{}, date 2024-07-28 18:51:17
+function deposit: args(100,),kwargs{}, date 2024-07-28 18:51:17
+function transfer: args(<__main__.BankAccount object at 0x7f9dc029a750>, 100),kwargs{}, date 2024-07-28 18:51:17
+function multiple_operations: args(<function <lambda> at 0x7f9dc0250cc0>, <function <lambda> at 0x7f9dc02d4680>, <function <lambda> at 0x7f9dc02d45e0>),kwargs{}, date 2024-07-28 18:51:17
